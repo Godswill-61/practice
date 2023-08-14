@@ -1,10 +1,9 @@
-import Scrolling from "./screens/Scrolling"
-import { ScrollView } from "react-native"
+import { CreateAuction } from "./screens/CreateAuction";
 
 export default function App() {
   return (
     <>
-    <Scrolling/>
+    <CreateAuction/>
     </>
   )
 }
